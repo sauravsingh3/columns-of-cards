@@ -1,0 +1,29 @@
+html {
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+div img {
+  margin: 0 auto 1.5rem;
+  width: 100px;
+}
+
+.books {
+  display: flex;
+  padding: 0 1.5em;
+}
